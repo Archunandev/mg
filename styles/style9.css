@@ -1,0 +1,154 @@
+
+#head{
+	border-radius:30px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	position:absolute;
+	top:3%;
+	left:37%;
+}
+#head h1{
+	color:white;
+	font-family:algerian;
+}
+body{
+	background:rgb(36,81,234);
+}
+#img img{
+	border-radius:20px;
+}
+#img{
+	position:absolute;
+	left:0.5%;
+	top:42%;	
+}
+#img1 img{
+	border-radius:20px;
+}
+#img1{
+	position:absolute;
+	right:0.5%;
+	top:42%;
+		border-radius:20px;
+}
+#head1{
+	background:rgb(40,40,40);
+	width:100%;
+	height:50px;
+	position:absolute;
+	top:32%;
+}
+#head1 h2{
+	position:absolute;
+	font-family:algerian;
+	font-size:20px;
+	color:white;
+	left:45%;
+}
+#border{
+	position:absolute;
+	left:30%;
+	width:550px;
+	height:170px;
+	background:rgb(0,138,255);
+	top:45%;
+	border-radius:20px;
+	border-style:solid;
+	border-color:#111;
+}
+#border1{
+	position:absolute;
+	left:30%;
+	width:550px;
+	height:170px;
+	background:rgb(0,138,255);
+	top:80%;
+	border-radius:20px;
+	border-style:solid;
+	border-color:#111;
+}
+#btn{
+	position:absolute;
+	right:2%;
+	top:25%;
+	background:rgb(72,253,82);
+	border-radius:10px;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#btn a{
+	text-decoration:none;
+	font-size:25px;
+	font-family:algerian;
+	color:white;
+}
+#date{
+	left:1%;
+	position:absolute;
+	top:10%;
+	border-style:overline;
+	border-color:black;
+}
+#date p{
+	font-family:algerian;
+	color:white;
+	font-size:15px;
+}
+#cont{
+	position:absolute;
+	left:18%;
+	background:rgb(0,128,192);
+	top:12%;
+	width:38%;
+	/*border-style:solid;
+	border-color:blue;
+	border-radius:20px;*/
+	padding-left:20px;
+	padding-right:20px;
+}
+#cont pre{
+	font-size:17px;
+	font-family:algerian;
+	color:white;
+}
+#header{
+	height:150px;
+	width:100%;
+	background:rgb(0,128,255);
+
+}
+#logo{
+	position:absolute;
+	top:2%;
+	left:2%;
+}
+#nav{
+	height:35px;
+	width:100%;
+	background:rgb(40,148,255);
+	position:absolute;
+	top:24.7%;
+	padding-bottom:10px;
+
+}
+#navurl li{
+	list-style-type:none;
+	display:inline-block;
+	padding-left:40px;
+	padding-right:40px;
+	line-height:30px;
+	font-family:algerian;
+	/*background:black;
+	border-radius:20px;*/
+`	text-align:center;
+}
+#navurl li a{
+	text-decoration:none;
+	/*color:rgb(254,215,56);*/
+	color:white;
+	
+}

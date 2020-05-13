@@ -1,0 +1,103 @@
+/*#header{
+	background:url(2.jpg) no-repeat;
+	width:100%;
+	height:200px;
+}*/
+#header{
+	height:150px;
+	width:100%;
+	background:rgb(0,128,255);
+
+}
+#logo{
+	position:absolute;
+	top:1.0%;
+	left:2%;
+}
+#nav{
+	height:45px;
+	width:100%;
+	background:rgb(40,148,255);
+	position:absolute;
+	top:25%;
+}
+#navurl li{
+	list-style-type:none;
+	display:inline-block;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:10px;
+	line-height:30px;
+	font-family:algerian;
+	/*background:black;
+	border-radius:20px;*/
+`	text-align:center;
+}
+#navurl li a{
+	text-decoration:none;
+	/*color:rgb(254,215,56);*/
+	color:white;
+	
+}
+body{
+	background:url(17.jpg);
+}
+#head{
+	
+	width:40%;
+	height:90px;
+	position:absolute;
+	left:25%;
+	top:5%;
+}
+#head h1{
+	color:white;
+	font-family:algerian;
+	position:absolute;
+	left:35%;
+	padding-bottom:10px;
+	padding:0;
+}
+#img{
+	position:absolute;
+	top:35%;
+	left:1%;
+	
+}
+#img img{
+	width:40%;
+	height:700px;
+}
+#img1{
+	position:absolute;
+	top:35%;
+	left:80%;
+	
+}
+
+#cont p{
+	color:white;
+	font-size:18px;
+	font-family:algerian;
+	padding-top:40px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+#content{
+	height:128%;
+	width:100%;
+	background:blue;
+}
+#cont{
+	position:absolute;
+	left:35%;
+	top:40%;
+	background:none;
+	height:600px;
+	width:50%;
+	/*border-radius:20px;
+	border-style:dashed;
+	border-color:black;*/
+	
+}

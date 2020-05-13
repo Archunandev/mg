@@ -1,0 +1,73 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	background:url(039.jpg) no-repeat;
+	background-size:cover;
+	
+}
+.log{
+	position: absolute;
+	top: 40%;
+	right: 50%;
+	transform: translate(-50%,-50%);
+	max-width:350px;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top:100px;
+}
+.log a{
+	text-align:center;
+	color:white;
+}
+.log h1{
+	text-align:center;
+	/*float: center;
+	font-size: 40px;
+	border-bottom: 6px solid rgb(53,53,255);
+	margin-bottom:50px;
+	padding:13px 0*/
+}
+.textbox{
+	width: 100%;
+	overflow:hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin:8px 0;
+	border-bottom: 1px solid rgb(53,53,255);
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size: 18px;
+	width: 80%s;
+	float:left;
+	margin: 0 10px;
+	color:white;
+}
+.btn{
+	width:100%;
+	background:none;
+	border: 2px solid rgb(53,53,255);
+	color:white;
+	padding: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	margin:12px 0;
+	color:white;
+	font-family:Rockwell;
+	border-radius:20px;
+}
+	

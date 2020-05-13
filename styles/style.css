@@ -1,0 +1,438 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	background:#111;
+}
+body{
+	background:#111;
+	/*height:800px;
+	width:800px;
+	margin:0 auto;*/
+}
+#header{
+	height:150px;
+	width:100%;
+	background:rgb(0,128,255);
+
+}
+#logo{
+	position:absolute;
+	top:1.0%;
+	left:2%;
+}
+#nav{
+	height:35px;
+	width:100%;
+	background:rgb(40,148,255);
+	
+}
+#navurl li{
+	list-style-type:none;
+	display:inline-block;
+	padding-left:40px;
+	padding-right:40px;
+	line-height:30px;
+	font-family:algerian;
+	/*background:black;
+	border-radius:20px;*/
+`	text-align:center;
+}
+#navurl li a{
+	text-decoration:none;
+	/*color:rgb(254,215,56);*/
+	color:white;
+	
+}
+#sign{
+	background:#111;
+	list-style-type:none;
+	display:inline-block;
+	border-radius:10px;
+	padding-left:25px;
+	padding-right:25px;
+	line-height:30px;
+	padding-top:5px;
+	padding-bottom:5px;
+	position:absolute;
+	right:16%;
+	top:14%;
+}
+#sign a{
+	text-decoration:none;
+	font-size:18px;
+	font-family:algerian;
+	color:white;
+}
+#login{
+	background:#111;
+	list-style-type:none;
+	display:inline-block;
+	border-radius:10px;
+	padding-left:25px;
+	padding-right:25px;
+	line-height:30px;
+	padding-top:5px;
+	padding-bottom:5px;
+	position:absolute;
+	right:1%;
+	top:14%;
+}
+#login a{
+	text-decoration:none;
+	font-size:18px;
+	font-family:algerian;
+	color:white;
+}
+#header h2{
+	float:left;
+	margin-left:25;
+	font-family:algerian;
+}
+/*#h2{
+	 float:center;
+	 font-family:showcard gothic;
+	 
+	 position: absolute;
+	 top: 30px;
+	 right: 16px;
+	 font-size: 50px;
+	 color:rgb(0,255,0);
+	 
+}*/
+
+
+
+#back3{
+	height:35px;
+	width:100%;
+	background:blue;
+}
+#content{
+	height:600px;
+	width:100%;
+	background:rgb(36,81,234);
+}
+
+#mar{
+	background:blue;
+	height:35px;
+	width:30%;
+	position:absolute;
+	top:30.5%;
+}
+#back3 marquee{
+	height:70px;
+	width:100%;
+}
+#back3 marquee li{
+	font-family:algerian;
+	color:white;
+	font-size:20px;
+	display:inline;
+	background:none;
+}
+#content marquee li info{
+	background:blue;
+	color:#111;
+}
+#footer{
+	height:200px;
+	width:100%;
+	background:rgb(37,37,37);
+}
+#footer1{
+	background:rgb(56,56,56);
+	position:absolute;
+	bottom:-61%;
+	width:100%;
+	height:30px;
+}
+#footer1 p{
+	height:30px;
+	color:white;
+	position:absolute;
+	left:36%;
+}
+#footer2{
+	position:absolute;
+	bottom:-34%;
+	right:4%;
+}
+#footer2 p{
+	font-family:algerian;
+	font-size:20px;
+	color:white;
+}
+#footer3 img{
+	position:relative;
+	left:73%;
+}
+#footer3 img{
+	position:relative;
+	bottom:1%;
+}
+#footer3{
+	position:relative;
+	bottom:-45%;
+}
+#footer4 p{
+	position:absolute;
+	font-family:algerian;
+	font-size:20px;
+	left:5%;
+	bottom:-34%;
+	color:white;
+}
+#footer4 h2{
+	position:absolute;
+	left:2%;
+	color:rgb(193,193,193);
+	bottom:-45%;
+	font-size:18px;
+}
+#footer5 p{
+	position:absolute;
+	left:41.5%;
+	
+}
+#footer5 p{
+	position:absolute;
+	bottom:-41%;
+	color:white;
+	font-size:18px;
+}
+#footer5 i{
+	position:relative;
+	left:40%;
+	}
+#footer5 i{
+	position:absolute;
+	bottom:-38.8%;
+}
+#footer6 i{
+	position:relative;
+	left:40%;
+}
+#footer6 i{
+	position:absolute;
+	bottom:-45%;
+}
+#footer6 p{
+	position:absolute;
+	bottom:-47%;
+	color:white;
+	font-size:18px;
+}
+#footer6 p{
+	position:absolute;
+	left:41.5%;
+}
+#footer7{
+	position:absolute;
+	left:38%;
+	color:white;
+	font-family:algerian;
+	bottom:-34%;
+	font-size:20px;
+}
+#footer8{
+	background:rgb(56,56,56);
+	height:32%;
+	width:40%;
+	position:absolute;
+	left:31%;
+	bottom:-61.1%;
+}
+#navurl li{
+	list-style-type:none;
+	display:inline-block;
+	padding-left:40px;
+	padding-right:40px;
+	line-height:30px;
+	font-family:algerian;
+	/*background:black;
+	border-radius:20px;*/
+`	text-align:center;
+}
+#navurl li a{
+	text-decoration:none;
+	/*color:rgb(254,215,56);*/
+	color:white;
+	
+}
+/*#slider{
+	position:absolute;
+	top:24.2%;
+	left:19.2%;
+	overflow:hidden;
+	background:none;
+	width:1053px;
+	height:510px;
+	padding:0;
+	color:#fff;
+	margin-top:100px;
+}*/
+#slider{
+	position:absolute;
+	top:-19.5%;
+	right:0%;
+	overflow:hidden;
+	background:rgba(0,0,0,0.5);
+	width:250px;
+	height:510px;
+	padding:0;
+	margin-top:100px;
+}
+#slider figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	left:0;
+	animation:10s slider infinite;
+}
+/*#slider figure img{
+	width:20%;
+	float:left;
+}*/
+#p1 p{
+	position:absolute;
+	left:40%;
+	top:40%;
+}
+#p1{
+	width:10%;
+	float:left;
+	color:white;
+	position:absolute;
+	left:40%;
+	top:0%;
+	background:none;
+	border-radius:5px;
+	font-family:algerian;
+	font-size:28px;
+	margin:0;
+}
+#p2{
+	width:20%;
+	float:left;
+	color:white;
+	font-size:28px;
+	position:absolute;
+	left:63%;
+	font-family:algerian;
+
+}
+
+@keyframes slider{
+	0%{
+		left:0;
+	}
+	20%{
+		left:0;
+	}
+	25%{
+		left:-100%;
+	}
+	45%{
+		left:-100%;
+	}
+	50%{
+		left:-200%;
+	}
+	70%{
+		left:-200%;
+	}
+	75%{
+		left:-300%;
+	}
+	95%{
+		left:-300%;
+	}
+		
+}
+#back{
+	position:absolute;
+	
+}
+#video1 video{
+	width:530px;
+	height:480px;
+	border-radius:20px;
+}
+#video1{
+	position:absolute;
+	top:1%;
+	left:1%;
+}
+
+#back1{
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	width:100%;
+	height:510px;
+}
+#border{
+	list-style-type:none;
+	display:inline-block;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:30px;
+	border-color:rgba(160,0,240,0.3);
+	border-style:dashed;
+	position:absolute;
+	top:2%;
+	left:25%;
+	padding-top:20px;
+	height:100px;
+}
+#border img{
+	width:50px;
+	height:50px;
+	padding-left:5px;
+	padding-right:5px;
+	position:relative;
+	top:40%;
+	
+}
+#follow{
+	color:white;
+	position:absolute;
+	top:10%;
+	left:10%;
+	font-family:algerian;
+	font-size:15px;
+}
+
+
+/*#back{
+	background:rgb(32,32,32);
+}
+/*.box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    /*}
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 50;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    /*}
+	h1{
+	     font-family:algerian;
+		 text-align:right;
+		 color:rgb(0,128,128);
+		 font-size:50px;
+		 
+		 }*/
+		 
+		 
+		 
+}
+

@@ -1,0 +1,181 @@
+#head h1{
+	position:absolute;
+	top:-14%;
+	left:28%;
+	color:white;
+	font-family:algerian;
+}
+#head{
+	
+	position:absolute;
+	left:32%;
+	top:8%;
+	width:35%;
+	height:100px;
+	
+	
+}
+#header{
+	height:150px;
+	width:100%;
+	background:rgb(0,128,255);
+
+}
+#logo{
+	position:absolute;
+	top:1.0%;
+	left:2%;
+}
+#nav{
+	height:45px;
+	width:100%;
+	background:rgb(40,148,255);
+	position:absolute;
+	top:25%;
+}
+#navurl li{
+	list-style-type:none;
+	display:inline-block;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:10px;
+	line-height:30px;
+	font-family:algerian;
+	/*background:black;
+	border-radius:20px;*/
+`	text-align:center;
+}
+#navurl li a{
+	text-decoration:none;
+	/*color:rgb(254,215,56);*/
+	color:white;
+	
+}
+
+body{
+	background:blue;
+}
+#title{
+	color:white;
+	font-family:algerian;
+	position:absolute;
+	left:40%;
+	top:30%;
+}
+#border0{
+	background:#111;
+	border-radius:20px;
+	height:230px;
+	width:96%;
+	position:absolute;
+	left:2%;
+	top:40%;
+	right:2%
+	
+}
+
+	#date0{
+		position:absolute;
+		left:2%;
+		top:30%;
+		color:white;
+		font-family:algerian;
+	}
+	#result0{
+		position:absolute;
+		left:19%;
+		top:7%;
+	}
+		#data0{
+			color:white;
+			position:absolute;
+			right:20%;
+			top:18%
+		}
+		#data0 h3{
+			font-family:algerian;
+		}
+	#user0{
+		position:absolute;
+		left:19.5%;
+		top:57%;
+		background:none;
+		border-radius:50%;
+	}
+		#user0 img{
+			border-radius:50%;
+			border-color:white;
+			border-style:dashed;
+		}
+		
+#border1{
+	background:#111;
+	border-radius:20px;
+	height:230px;
+	width:96%;
+	position:absolute;
+	left:2%;
+	top:80%;
+	right:2%
+	
+}
+
+#border2{
+	background:#111;
+	border-radius:20px;
+	height:230px;
+	width:96%;
+	position:absolute;
+	left:2%;
+	top:120%;
+	right:2%
+	
+}
+
+#border3{
+	background:#111;
+	border-radius:20px;
+	height:230px;
+	width:96%;
+	position:absolute;
+	left:2%;
+	top:160%;
+	right:2%
+	
+}
+
+#border4{
+	background:#111;
+	border-radius:20px;
+	height:230px;
+	width:96%;
+	position:absolute;
+	left:2%;
+	top:200%;
+	right:2%
+	
+}
+
+#border5{
+	background:#111;
+	border-radius:20px;
+	height:230px;
+	width:96%;
+	position:absolute;
+	left:2%;
+	top:240%;
+	right:2%
+	
+}
+
+#border6{
+	background:#111;
+	border-radius:20px;
+	height:230px;
+	width:96%;
+	position:absolute;
+	left:2%;
+	top:280%;
+	right:2%
+	
+}

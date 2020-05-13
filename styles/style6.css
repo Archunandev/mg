@@ -1,0 +1,112 @@
+/*body{
+	margin:0;
+	padding:0;
+	background:url(4.jpg);
+	background-size:cover;
+	height:80%;
+	width:100%;
+}*/
+#cont{
+	height:100%;
+	width:100%;
+	background:blue;
+	
+}
+#header{
+	height:150px;
+	width:100%;
+	background:rgb(0,128,255);
+
+}
+#logo{
+	position:absolute;
+	top:1.0%;
+	left:2%;
+}
+#nav{
+	height:45px;
+	width:100%;
+	background:rgb(40,148,255);
+	position:absolute;
+	top:24%;
+}
+#navurl li{
+	list-style-type:none;
+	display:inline-block;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:10px;
+	line-height:30px;
+	font-family:algerian;
+	/*background:black;
+	border-radius:20px;*/
+`	text-align:center;
+}
+#navurl li a{
+	text-decoration:none;
+	/*color:rgb(254,215,56);*/
+	color:white;
+	
+}
+.contact-form{
+	width:85%;
+	max-width:600px;
+	background:#111;
+	position:absolute;
+	top:80%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	padding:30px 40px;
+	border-radius: 8px;
+	text-align:center;
+	box-shadow: 0 0 20px #000000b3;
+	font-family:;
+	color:white;
+	
+}
+#h3{
+	margin-top:0;
+	font-weight:200;
+	font-family:algerian;
+	position:absolute;
+	left:40%;
+	top:10%;
+	font-size:30px;
+	color:white;
+}
+
+.txtb{
+	border:1px solid gray;
+	margin:8px 0;
+	padding:12px 18px;
+	border-radius:8px;
+}
+.txtb label{
+	display:block;
+	text-align:left;
+	color:white;
+	text-transform:uppercase;
+	font-size:14px;
+}
+.txtb input,.txtb textarea{
+	width:100%;
+	border:none;
+	background:none;
+	outline:none;
+	font-size:18px;
+	margin-top:6px;
+}
+.btn{
+	display:block;
+	background:rgb(10,216,82);
+	padding:14px 0;
+	color:white;
+	text-transform:uppercase;
+	cursor:pointer;
+	margin-top: 8px;
+	width:100%;
+	border-radius:20px;
+	font-family:algerian;
+}
+
+	
